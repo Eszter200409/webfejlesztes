@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Dél-Korea</title>
+    
+</head>
+<body>
+    <header><h1>Dél-Korea</h1></header>
+    <div class="tartalom">
+        <nav class="menu">
+            <a href="index.html">Kezdőlap</a>
+            <a href="hagyomanyok.html">Hagyományos művészetek</a>
+            <a href="nepih.html">Népi hitvilág</a>
+            <a href="etelek.html">Ételek</a>
+            <a href="popkult.html" class="active">Popkultúra</a>
+        </nav>
+        <article class="article_egesz">
+            <h2 class="cikkcim">Dél-Korea - Főoldal 🌸</h2>
+            <h3 class="cikkcim">Kedves Látogató!</h3>
+            <p>Üdvözöllek a weboldalamon, amely Dél-Korea lenyűgöző világát mutatja be neked! Ismerd meg ezt a különleges országot, és fedezd fel hagyományait, népi hitvilágát, ételeit és popkultúráját!
+            Készen állsz, hogy belemerülj Korea varázslatos történeteibe és kultúrájába? Lépj tovább, és indulj egy felejthetetlen utazásra!</p>
+        </article>
+        <aside class="aside_egesz">
+            <h2 class="cikkcim">💡Tudtad?</h2>
+            <p>Dél-Korea gazdasága Ázsia negyedik és a világ 10. legnagyobb gazdasága 2020-as adatok alapján.</p>
+        </aside>
+        
+        <article class="hosszu">
+            <h2 class="cikkcim">Rövid ismertető</h2>
+            <p>A Koreai Köztársaság, hétköznapi nevén Dél-Korea, Kelet-Ázsiában található, a Koreai-félsziget déli részén. Egyetlen szárazföldi határa a koreai demilitarizált övezet, amely Észak-Koreával közös. A két Korea 1945. augusztus 15-éig egy államot alkotott. Keleten a Japán-tenger (hivatalos koreai nevén Keleti-tenger), délen a Koreai-szoros és nyugaton a Sárga-tenger határolja.</p>
+            <img src="naplemente.webp" alt="naplemente Dél-Koreában" class="kep">
+            <p> A nagy történelmi múltra visszatekintő Dél-Korea ma a világ egyik vezető gazdasági hatalma, számos nemzetközi szövetség tagja. Fővárosa és legnagyobb városa a 2018-ban 9,67 millió lakosú[5] Szöul, a világ egyik legnagyobb városa. A fővároson kívül még kilenc milliós népességű nagyváros található az országban.</p>
+            <img src="szoul.webp" alt="Dél-Korea fővárosa" class="kep">
+        </article>
+        <form action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" method="post" id="myform" novalidate>
+            <h2 class="cikkcim">BTS Tudás Teszt 💜</h2>
+            <p>Mennyire ismered a világ egyik legsikeresebb K-pop csapatát? Tedd próbára magad ezzel a kvízzel!</p>
+            <p>1. Mit jelent a BTS rövidítés?</p>
+            <br>
+                <input name="f1" type="radio" value="a1">
+                Beyond The Stars<br>
+                <input name="f1" type="radio" value="jo1">
+                Bangtan Sonyeondan<br>
+                <input name="f1" type="radio" value="c1">
+                Best Team of Seoul<br>
+                <input name="f1" type="radio" value="d1">
+                Brave Talent Squad<br>
+            <p>2. Mi volt a BTS első Grammy-díj jelölése?</p>
+                <select id="lista" size="4" name="f2">
+                   <option value="a2">Best New Artist</option>
+                    <option value="b2">Album of the Year</option>
+                    <option value="c2">Best Rap Song</option>
+                    <option value="jo2">Best Pop Duo/Group Performance</option>
+                </select>    
+            <p>3. Mikor debütált a BTS?</p>
+            <br>
+                <input name="f3" type="radio" value="a">
+                2012. június 13.<br>
+                <input name="f3" type="radio" value="jo3">
+                2013. június 13.<br>
+                <input name="f3" type="radio" value="c">
+                2014. július 13.<br>
+                <input name="f3" type="radio" value="d">
+                2015. május 13.<br>
+            <p>4. Mi a BTS hivatalos fanclub neve?</p>
+            <select id="lista" size="4" name="f4">
+               <option value="jo4">ARMY</option>
+                <option value="b4">Blink</option>
+                <option value="c4">Once</option>
+                <option value="d4">EXO-L</option>
+            </select>   
+            <p>5. Melyik két BTS dal nem szerepel az albumok címadó dalai között?</p><br>
+            <input type="checkbox" id="a">
+            Dope<br>
+            <input type="checkbox" id="b">
+            Fire<br>
+            <input type="checkbox" id="c">
+            Not Today<br>
+            <input type="checkbox" id="d">
+            IDOL<br>
+            <p>6. Mi a BTS vezetőjének, RM-nek valódi neve?</p>
+            <input id="ablak" type="text" size="30%"><br>
+            <p>
+            <input type="submit" value="Mehet" id="mehet">
+            <input type="reset" value="Törlés" id="torles">
+            </p>
+            <h2 id="megoldas"></h2>
+        </form>
+        <script src="kerdoiv.js"></script>
+        
+    </div>
+    <footer>Az oldal tanulmányi célú. <br>Gáll Eszter Eliza © 2024</footer>
+</body>
+</html>

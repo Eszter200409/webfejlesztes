@@ -1,0 +1,93 @@
+Ételek
+
+<form>
+            <p>Mennyire szereted a koreai ételeket?</p>
+            <progress value="0" max="10"></progress>
+            <input type="text" list="pelda" name="etel" placeholder="Válaszd ki a legjobban kedvelt ételed:" autofocus>
+                <datalist id="etel">
+                <option value="Kimbap tekercs">
+                <option value="Instant ramen">
+                <option value="Bibimbap">
+                <option value="Japchae">
+                </datalist>
+        </form>
+
+Popkult
+
+A nagy történelmi múltra visszatekintő Dél-Korea ma a világ egyik vezető gazdasági hatalma, számos nemzetközi szövetség tagja. Fővárosa és legnagyobb városa a 2018-ban 9,67 millió lakosú[5] Szöul, a világ egyik legnagyobb városa. A fővároson kívül még kilenc milliós népességű nagyváros található az országban.
+
+
+
+<form action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" method="post" id="myform" novalidate>
+            <h2>BTS Tudás Teszt 💜</h2>
+            <p>Mennyire ismered a világ egyik legsikeresebb K-pop csapatát? Tedd próbára magad ezzel a kvízzel!</p>
+            <p>1. Mit jelent a BTS rövidítés?</p>
+            <br>
+                <input name="elso" type="radio" value="a">
+                Beyond The Stars<br>
+                <input name="elso" type="radio" value="b">
+                Bangtan Sonyeondan<br>
+                <input name="elso" type="radio" value="c">
+                Best Team of Seoul<br>
+                <input name="elso" type="radio" value="d">
+                Brave Talent Squad<br>
+
+            <input type="submit" value="Elküld"></p>
+        </form>
+
+Itt van egy BTS témájú tudástesztelő kvíz! Teszteld a tudásod a K-pop világának egyik legismertebb csapatáról:
+
+### BTS Tudásteszt
+
+f1. **Mi a "BTS" név jelentése?**
+   - a) Bangtan Sonyeondan
+   - b) Big Time Stars
+   - c) Bangtan Success
+   - d) Beat The System
+
+f1. jo1) Bangtan Sonyeondan
+
+
+f2. **Mi volt a BTS első Grammy-díj jelölése?**
+    - a) "Best New Artist"
+    - b) "Best Rap Song" 
+    - c) "Album of the Year"
+    - d) "Best Rap Song" "Best Pop Duo/Group Performance"
+
+f2. d) "Best Pop Duo/Group Performance" 
+
+
+f3. **Mikor debütált a BTS?**
+   - a) 2012. június 13.
+   - b) 2013. június 13.
+   - c) 2014. július 13.
+   - d) 2015. május 13.
+
+f3. b) 2013. június 13.
+
+
+f4. **Mi a BTS hivatalos fanclub neve?**
+   - a) ARMY
+   - b) Blink
+   - c) Once
+   - d) EXO-L
+
+f4. a) ARMY
+
+
+f5) Melyik két BTS dal **nem** szerepel az albumok címadó dalai között?
+
+A) **"Dope"**  
+B) **"Fire"**  
+C) **"Not Today"**  
+D) **"IDOL"**
+
+A helyes válasz tehát: 
+**A) "Dope"** és **B) "Fire"**!
+
+
+f6) Mi a BTS vezetőjének, RM-nek valódi neve?
+
+### Válasz: 
+Kim Nam-joon
+

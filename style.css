@@ -1,0 +1,202 @@
+*{box-sizing:border-box;}
+body{margin:1%; padding:0;background-color:rgb(243, 228, 184);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);}
+
+header{
+    padding:1em;
+    margin:0;
+    background-color:rgb(114, 67, 14);
+    text-align:center;
+    font-size:1.5em;
+    color:white;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.800);
+    border-radius:1em;
+}
+
+h1{
+    display:block;
+    margin:0.3em 0;
+    font-weight: bold;
+}
+h2{
+    display:block;
+}
+
+p{display:block;}
+
+.tartalom{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.tartalom>*{
+    height:fit-content;
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.3em 0 1.3em 0;
+    width:100%;
+    background-color: rgb(114, 67, 14);
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    border-radius:1em;
+}
+
+nav a {
+    display:block;
+    text-decoration:none;
+    color:white;
+    font-size: 1.5em;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    padding:0.5em;
+}
+
+nav a.active{
+    font-weight:bold;
+}
+
+article{
+    background-color:rgb(114, 67, 14);
+    color:white;
+    padding: 1em 1em;
+    text-align:justify;
+    border-radius:15px;
+    width:100%;
+    font-size: 1.1em;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    border-radius:1em;
+    margin: 1.3em 0 1.3em 0;
+}
+
+aside{
+    display:block;
+    background-color:rgb(114, 67, 14);
+    color:white;
+    padding: 1em 1em;
+    text-align:justify;
+    border-radius:15px;
+    margin: 1.3em 0 1.3em 0;
+    width:100%;
+    font-size: 1.1em;
+    font-style:italic;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    border-radius:1em;
+}
+
+article.hosszu{
+    display:block;
+    background-color:rgb(114, 67, 14);
+    color:white;
+    padding: 1em 1em;
+    text-align:justify;
+    border-radius:15px;
+    margin: 1.3em 0 1.3em 0;
+    width:100%;
+    font-size: 1.1em;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    border-radius:1em;
+}
+
+img.kep{
+    width:60%;
+    height: auto;
+    float:initial;
+    margin:0.8% 20%;
+}
+
+footer{
+    display:block;
+    background-color:rgb(114, 67, 14);
+    color:white;
+    padding: 1em 1em;
+    text-align:center;
+    border-radius:15px;
+    width:100%;
+    font-size: 1.1em;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    border-radius:1em;
+    margin: 1.3em 0 1.3em 0;
+}
+
+form{
+    display:block;
+    background-color:rgb(114, 67, 14);
+    color:white;
+    padding: 1em 1em;
+    text-align:justify;
+    border-radius:15px;
+    margin: 1.3em 0 1.3em 0;
+    width:100%;
+    font-size: 1.1em;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+    border-radius:1em;
+}
+
+.cikkcim{
+    text-align: center;
+}
+
+input#mehet {
+    cursor: pointer;
+    color: white;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    font-size: 1.2em;
+    background-color:rgb(197, 113, 17);;
+}
+
+input#torles{
+    cursor: pointer;
+    color: white;
+    text-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4);
+    font-size: 1.2em;
+    background-color:rgb(197, 113, 17);;
+}
+
+@media only screen and (min-width: 600px)
+{
+    nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+    aside{
+        display:block;
+        justify-content:center;
+    }
+
+    img.kep{
+        flex-basis:80%;
+        height: auto;
+        margin: 0.8% 20%;
+    }
+    
+}
+@media only screen and (min-width: 768px)
+{
+
+    aside{
+        flex-basis: 100%;
+        margin:0.7% 30%;
+        align-items:center;
+    }
+    article{
+        margin: 0.7% 20%;
+        justify-content:center;
+    }
+    article.hosszu{
+        margin: 0.7% 15%;
+        justify-content:center;
+    }
+    form{
+        margin: 0.7% 15%;
+        justify-content:center;
+    }
+} 
